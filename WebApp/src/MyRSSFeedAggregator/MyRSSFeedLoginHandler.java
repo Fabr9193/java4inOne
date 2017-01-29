@@ -25,7 +25,7 @@ public class MyRSSFeedLoginHandler extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         this.jLabel5.setText("Connecting session...");
         this.j_session.setMail(this.jTextField1.getText());
-        this.j_session.setPassword(this.jPasswordField1.getText());
+        this.j_session.setPassword(this.jPasswordField1.getPassword());
         int r = this.j_session.Login();
         if (r == 200)
         {
@@ -44,7 +44,7 @@ public class MyRSSFeedLoginHandler extends javax.swing.JFrame {
         try {
             this.jLabel5.setText("Registration in process...");
             this.j_session.setMail(this.jTextField1.getText());
-            this.j_session.setPassword(this.jPasswordField1.getText());
+            this.j_session.setPassword(this.jPasswordField1.getPassword());
 
             int r = this.j_session.Register();
             if (r == 200)

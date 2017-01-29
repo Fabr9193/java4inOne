@@ -11,7 +11,7 @@ public class MyRSSFeedAggregator {
         MyRSSFeedSessionHandler j_session = new MyRSSFeedSessionHandler("http://www.mocky.io/v2/5883b4490f00008d0b31c043");
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new RssAggregatorLogin(j_session).setVisible(true);
+                new MyRSSFeedLoginHandler(j_session).setVisible(true);
             }
         });
     }
