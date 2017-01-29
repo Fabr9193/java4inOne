@@ -1,0 +1,13 @@
+spring: profile: dev 
+   jpa:
+
+      hibernate:
+         ddl-auto: create-drop 
+      datasource:
+         platform: mariadb
+         url: jdbc:mysql://localhost/feedrss 
+         username: root
+         password: toto
+         driverClassName: com.mysql.jdbc.Driver
+
+---

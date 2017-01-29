@@ -1,0 +1,13 @@
+spring: profile: dev 
+   jpa:
+
+      hibernate:
+         ddl-auto: create-drop 
+      datasource:
+         platform: postgresql
+         url: jdbc:postgresql://localhost/springboot 
+         username: postgres
+         password: postgres
+         driverClassName: org.postgresql.Driver
+
+---
