@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">FeedRSS</string>
     <string name="action_settings">Settings</string>
+    <string name="login">Login</string>
+    <string name="email_hint">Type Email..</string>
+    <string name="password_hint">Type Password</string>
 </resources>
