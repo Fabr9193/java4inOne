@@ -72,7 +72,7 @@ public class MyRSSFeedSessionHandler {
         this.j_token = token;
     }
 
-    public void setPassword(String password){
+    public void setPassword(char[] password){
         this.u_pwd = password;
     }
 

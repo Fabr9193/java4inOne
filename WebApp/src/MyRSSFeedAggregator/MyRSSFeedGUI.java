@@ -29,6 +29,8 @@ public class MyRSSFeedGUI extends javax.swing.JFrame {
         this.updateRSSlist();
     }
 
+    //List handler function
+
     public void updateRSSlist() throws JSONException, IOException {
         this.j_session.sendRequest("/feed", null, "GET", "", "http://www.mocky.io/v2/5889ee6f2500004719adcf61");
         this.listRSS = this.j_session.getResponse();
